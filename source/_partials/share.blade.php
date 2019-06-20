@@ -1,4 +1,3 @@
-{{-- I know inline CSS isn't good, but this is just a template so you should change everything anyway --}}
 <button data-sharer="facebook" data-url="{{ $page->getUrl() }}" style="background: #3b5998;">
     Facebook
 </button>
@@ -11,6 +10,8 @@
     Reddit
 </button>
 
+<!--
 <button data-sharer="linkedin" data-url="{{ $page->getUrl() }}" style="background: #0077b5;">
     LinkedIn
 </button>
+-->
