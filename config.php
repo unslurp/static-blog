@@ -2,10 +2,10 @@
 
 return [
     'production' => false,
-    'baseUrl' => 'https://artisan-static-demo.netlify.com',
+    'baseUrl' => 'https://www.unslurp.cf',
     'site' => [
-        'title' => 'My Jigsaw Blog',
-        'description' => 'Personal blog of John Doe.',
+        'title' => 'unslurp',
+        'description' => 'my super duper cool website',
         'image' => 'default-share.png',
     ],
     'owner' => [
@@ -15,9 +15,8 @@ return [
     ],
     'services' => [
         'analytics' => 'UA-XXXXX-Y',
-        'disqus' => 'artisanstatic',
-        'cloudinary' => 'artisanstatic',
-        'jumprock' => 'artisanstatic',
+        'cloudinary' => 'unslurp',
+        'jumprock' => 'unslurp',
     ],
     'collections' => [
         'posts' => [
