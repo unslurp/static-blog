@@ -7,5 +7,7 @@ permalink: 404.html
 @section('title', 'Page not found')
 
 @section('content')
-    <img src="https://www.change-hairstyling.nl/images/img_404.png"><
+    <center>
+    <img src="/storage/img/404.png" width="250">
+    </center>
 @endsection
