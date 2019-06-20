@@ -7,7 +7,5 @@ permalink: 404.html
 @section('title', 'Page not found')
 
 @section('content')
-    <h1>404 Error</h1>
-
-    <p>The page you were trying to access could not be found.</p>
+    <img src="https://www.change-hairstyling.nl/images/img_404.png"><
 @endsection
