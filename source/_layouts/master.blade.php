@@ -19,7 +19,7 @@
 <body>
     <header>
         <nav>
-            <strong>{{ $page->site->title }}</strong><br>
+            <strong>{{ $page->site->title }}</strong>
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/posts">Posts</a></li>
@@ -37,8 +37,7 @@
 
     <footer>
         <small>
-            This project is maintained by <a href="https://raniesantos.netlify.com">Ranie Santos</a>.
-            View the <a href="https://github.com/raniesantos/artisan-static">GitHub repo</a>.
+            Copyright unslurp 2019. All rights reserved.
         </small>
     </footer>
 
