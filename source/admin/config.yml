@@ -3,7 +3,7 @@ backend:
   branch: master
   squash_merges: true
 publish_mode: editorial_workflow
-media_folder: images # required but unused, host images externally
+media_folder: images # ONLY TO HOST IMAGE ON THE MAIN SITE INSTEAD OF THE CDN
 collections:
   - name: "posts"
     label: "Posts"
@@ -13,8 +13,8 @@ collections:
     slug: "{{slug}}"
     fields:
       - {label: "Title", name: "title", widget: "string", default: "Title"}
+      - {label: "Author", name: "author", widget: "string", default: "Author"}
       - {label: "Date", name: "date", widget: "date"}
       - {label: "Tags", name: "tags", widget: "list", required: false}
-      - {label: "Image Filename", name: "image", widget: "string", required: false}
-      - {label: "Comments", name: "comments", widget: "boolean", default: true}
+      - {label: "Image", name: "image", widget: "string", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
